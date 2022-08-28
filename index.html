@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    
+</head>
+<body>
+    <header>
+        
+        <h1>Halifax canoe and kayak</h1>
+          
+    </header>
+
+    <ul class="nav">
+        
+        <li><a href="#">Home</a></li>
+        
+        <li><a href="#">Book Trip</a></li>
+        
+        <li><a href="#">Admin Login</a></li>
+
+        
+    </ul>
+    
+    <button class="menu-btn">
+            
+        <img src="https://raw.githubusercontent.com/Zulinov/skillsProjects/main/hamburger.png" />
+            
+   </button>
+
+      <div class="logo">
+        <img src="images/paddle-white.png">
+      </div>
+
+    <main>
+        
+        <div class="container">
+            <img src="https://raw.githubusercontent.com/Zulinov/skillsProjects/main/canoe.jpg">
+            <div class="text-block">Come expirence Canada</div>
+        </div>
+       
+        
+        <div class="contents">
+
+            <h2>Upcoming Adventures <h2>
+            
+                <h3>Halifax</h3>
+            <br>
+                <p>Date:2017-04-12</p>
+                <p>Duration:4 days</p>
+                <br>
+            
+                <h4>Summary</h4>
+                <p>
+                    Laurem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim venlam proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <br>
+                <h3>Sydney</h3>
+                <br>
+                <p>Date:2017-05-10</p>
+                <p>Duration:2 days</p>
+                <br>
+                <h4>Summary</h4>
+                <p>
+                    Laurem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim venlam proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                
+       
+            
+    </div>
+
+    </main>
+
+    <script>
+        $(function (){
+            // hide main menu
+        $('.nav').hide();
+
+            // select menu-button
+        $('.menu-btn').click(function (){
+        $('.nav').toggle(300); 
+        
+    });
+        // selects button to expand menu
+        $('.nav li.expand').click(function(){
+       
+    });
+
+    });
+
+</script>
+
+
+</body>
+</html>
